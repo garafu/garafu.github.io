@@ -1,0 +1,91 @@
+body
+{
+    font-family: helvetica, arial, freesans, clean, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: default;
+}
+
+.background
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:1400px) {
+.background
+{
+    background-image: url("../images/background-image-1600.jpg");
+    width: 1600px;
+    height: 1200px;
+    margin-left: -800px;
+    margin-top: -600px;
+}
+}
+
+@media screen and (max-width: 1399px) 
+{
+.background
+{
+    background-image: url("../images/background-image-1400.jpg");
+    width: 1400px;
+    height: 1050px;
+    margin-left: -700px;
+    margin-top: -525px;
+}
+}
+
+.profile
+{
+    position: absolute;
+    width: 480px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -240px;
+    margin-top: -150px;
+}
+
+.profile-background
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+/*    opacity:0.90;
+    filter: alpha(opacity=90);
+    -moz-opacity:0.90;*/
+    -webkit-box-shadow: 0 1px 30px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 1px 30px rgba(0,0,0,0.75);
+    box-shadow: 0 1px 30px rgba(0,0,0,0.75);
+}
+
+.profile-contents
+{
+    position: absolute;
+    margin: 1em 2em;
+}
+
+.profile-header
+{
+    color: #efefef;
+}
+
+.profile-datalist
+{
+    color: #d8d8d8;
+    line-height: 2.6em;
+}
+.profile-datalist dt
+{
+    float: left;
+    width: 5em;
+}
+.profile-datalist dd
+{
+    margin-left: 6em;
+}
