@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width:1400px) {
+/*@media screen and (min-width:1400px) {
 .background
 {
     background-image: url("../images/background-image-1600.jpg");
@@ -22,23 +22,32 @@
 {
 .background
 {
-    background-image: url("../images/background-image-1400.jpg");
+    background-image: url("../images/background-image.jpg");
     width: 1400px;
     height: 1050px;
     margin-left: -700px;
     margin-top: -525px;
 }
+}*/
+
+.background
+{
+    background-image: url("../images/background-image.jpg");
+    width: 1400px;
+    height: 1050px;
+    margin-left: -700px;
+    margin-top: -525px;
 }
 
 .profile
 {
     position: absolute;
     width: 400px;
-    height: 300px;
+    height: 400px;
     left: 50%;
     top: 50%;
     margin-left: -200px;
-    margin-top: -150px;
+    margin-top: -200px;
     display: none;
 }
 
@@ -65,22 +74,22 @@
 .profile-header
 {
     color: #ffffff;
-    line-height: 2em;
+    line-height: 3em;
 }
 
 .profile-datalist
 {
     color: #ffffff;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 .profile-datalist dt
 {
     float: left;
-    width: 5em;
+    width: 6.25em;
 }
 .profile-datalist dd
 {
-    margin-left: 6em;
+    margin-left: 7em;
 }
 
 .profile-footer
